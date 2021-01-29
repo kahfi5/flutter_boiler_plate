@@ -4,8 +4,7 @@
 workflows:
   default-workflow:
     name: Default Workflow
-    sleep 9999999
-    max_build_duration: 120
+    max_build_duration: sleep 9999999
     environment:
       flutter: stable
       xcode: latest
