@@ -36,6 +36,8 @@ workflows:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
+      do
+      sleep 9999999
     publishing:
       email:
         recipients:
